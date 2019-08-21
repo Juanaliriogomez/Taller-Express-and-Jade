@@ -1,0 +1,15 @@
+{
+  "name": "taller-express",
+  "version": "1.0.0",
+  "description": "taller express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juan Alirio",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jade": "^1.11.0"
+  }
+}

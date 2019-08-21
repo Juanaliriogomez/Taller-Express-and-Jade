@@ -1,0 +1,47 @@
+html
+    head
+        title #{title}
+        meta(charset='utf8')
+        link(rel='stylesheet', href='./estilos/estilos.css')
+        body
+
+           header
+              h1 #{titulo}
+           div.princ
+              ul
+                li
+                    a(href="/") Home
+                li
+                    a(href="/economy") Economía
+                li
+                    a(href="agriculture") Agricultura
+                li
+                    a(href="/technology") Tecnología 
+                    
+
+
+                    block content
+             p
+                | Vivamus hendrerit arcu sed erat molestie
+                | vehicula. Sed auctor neque eu tellus
+                | rhoncus ut eleifend nibh porttitor. Ut in.
+             p
+                | Donec congue lacinia dui, a porttitor
+                | lectus condimentum laoreet. Nunc eu
+                | ullamcorper orci. Quisque eget odio ac
+                | lectus vestibulum faucibus eget in metus.
+                | In pellentesque faucibus vestibulum. Nulla
+                | at nulla justo, eget luctus tortor.
+  
+           block sidebar
+                  .widget
+                    h1 Widget
+              p
+                | Sed auctor neque eu tellus rhoncus ut
+                | eleifend nibh porttitor. Ut in nulla enim.
+              p
+                | Vivamus hendrerit arcu sed erat molestie
+                | vehicula.
+            main
+                div.contenedor This is Jade
+                img(src="./img/quitocasacultura.jpg", alt="")

@@ -1,0 +1,13 @@
+img{
+    max-width: 100%;
+}
+
+h1{
+    text-align: center;
+    color: brown;
+}
+
+header{
+    background-color: darkviolet;
+    padding: 30px;
+}
